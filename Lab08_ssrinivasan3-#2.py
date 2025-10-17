@@ -19,6 +19,20 @@ def main():
         elif choice == "2":
             radius = float(input("Please enter radius:"))
             print("The circumfrence is:", c.circumfrence(radius))
+        elif choice == "3":
+            width = float(input("Please enter your width: "))
+            height = float(input("Please enter your height: "))
+            print("The area of the rectangle is" , r.area(width, height))
+        elif choice == "4":
+            width = float(input("Please enter the width: "))
+            height = float(input("Please enter your height: "))
+            print("The perimeter of the rectangle is", r.perimeter(width , height))
+        elif choice == "5":
+            print("You have chosen to quit. Exiting program...")
+            break
+        else:
+            print("Please try again")
+            
 
 main()
 
